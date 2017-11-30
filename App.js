@@ -9,6 +9,7 @@ import { StyleSheet } from 'react-native';
 import {
   Container,
   Header,
+  CheckBox,
   Title,
   Content,
   Item,
@@ -18,6 +19,7 @@ import {
   FooterTab,
   Button,
   Left,
+  ListItem,
   Right,
   Body,
   Icon,
@@ -56,27 +58,33 @@ export default class App extends Component {
             <Item>
               <Input placeholder="Username" />
             </Item>
-            <Item last>
+            <Item>
               <Input placeholder="Password" />
             </Item>
-            <Item last>
+            <Item>
               <Input placeholder="Password" />
             </Item>
-            <Item last>
+            <Item>
               <Input placeholder="Password" />
             </Item>
-            <Item last>
+            <Item>
               <Input placeholder="Password" />
             </Item>
-            <Item last>
+            <Item>
               <Input placeholder="Password" />
             </Item>
-            <Item last>
+            <Item>
               <Input placeholder="Password" />
             </Item>
-            <Item last>
+            <Item>
               <Input placeholder="Password" />
             </Item>
+            <ListItem>
+              <CheckBox checked={true} />
+              <Body>
+                <Text>Daily Stand Up</Text>
+              </Body>
+            </ListItem>
             <Item last>
               <Input placeholder="Password" />
             </Item>
